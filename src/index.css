@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@layer theme, base, components, utilities;
+
+body {
+  display: block;
+  margin: 0px;
+}

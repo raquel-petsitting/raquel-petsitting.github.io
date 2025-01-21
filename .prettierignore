@@ -1,0 +1,10 @@
+# Ignore all minified files
+*.min.js
+*.min.css
+*.ejs
+*.map
+**/plugins/*
+**/dist/css/alt/*
+**/dist/css/ej_web/*
+**/dist/css/ej_web_mat/*
+**/dist/css/fonts/*
