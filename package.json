@@ -1,0 +1,29 @@
+{
+  "name": "raquel-petsitting.github.io",
+  "version": "1.0.0",
+  "description": "Raquel Petsitting is a project made on request to showcase services of local brands.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite build --emptyOutDir --watch",
+    "build": "vite build --emptyOutDir",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raquel-petsitting/raquel-petsitting.github.io.git"
+  },
+  "author": "mariana-lab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raquel-petsitting/raquel-petsitting.github.io/issues"
+  },
+  "homepage": "https://github.com/raquel-petsitting/raquel-petsitting.github.io#readme",
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
