@@ -38,12 +38,7 @@ Whenever the PR is accepted, github actions build and deploy the content of `doc
 
 ### UI Library
 
-- **React**
-  - **React-DOM** - browser specific API
-  - **React-Router-DOM** - Routing in the App
+- **Vue**
+  - **Vue** - browser specific API
+  - **Vue-Router** - Routing in the App
 
-### Styling
-
-- **Tailwind** - `tailwind.config.js` - CSS-in-JS
-  - **PostCSS** - `postcss.config.js` - CSS syntax transformations
-  - **AutoPrefixer** - `` - PostCSS plugin that adds vendor prefixes

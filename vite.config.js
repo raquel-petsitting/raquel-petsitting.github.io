@@ -1,11 +1,11 @@
-import path from 'node:path';
-import process from 'node:process';
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import tailwindcss from '@tailwindcss/vite';
+// vite.config.js
+import path from 'node:path'
+import process from 'node:process'
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [vue()],
   server: {
     open: 'index.html',
     port: 3000, // Specify the development server port if needed
@@ -18,4 +18,4 @@ export default defineConfig({
   resolve: {
     alias: { '/src': path.resolve(process.cwd(), 'src') },
   },
-});
+})

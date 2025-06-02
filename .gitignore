@@ -1,11 +1,5 @@
 # dependencies
 /node_modules
 
-# testing
-/coverage
-
-# caches
-/.next/
-
 # production
 /docs
